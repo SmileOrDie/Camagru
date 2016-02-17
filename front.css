@@ -16,3 +16,10 @@
 	height: 60%;
 	background-color: Red;
 }
+#retour {
+	position: absolute;
+	background-color: blue;
+	margin-left: 50%;
+	width: 50%;
+	height: 20%;
+}
