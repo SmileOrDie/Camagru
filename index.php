@@ -13,7 +13,7 @@
 	<?php
 		var_dump($_POST);
 		if (isset($_POST['name']))
-			echo "YES FORUMULAIRE POST"
+			echo "YES";
 	?>
 	<br>
 	<pre><?php print_r($_SERVER);

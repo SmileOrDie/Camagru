@@ -14,7 +14,11 @@
 <body style="background-color:darkgrey;">
 	<div id="retour">
 		<form action="<?php echo $_SERVER['HTTP_REFERER'];?>"  method="post">
+			<div id="coucou"></div>
+			<div id="div_input">
 			<input type="submit" value="Retour">
+
+			</div>
 		</form>
 	</div>
 </body>
