@@ -1,0 +1,18 @@
+#header { 
+    background-color: black;
+}
+
+#main form { 
+	position: absolute;
+    background-color: Grey;
+	width: 80%;
+	height: 60%;
+}
+
+#side { 
+	position: absolute;
+	margin-left: 80%;
+	width: 20%;
+	height: 60%;
+	background-color: Red;
+}
