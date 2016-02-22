@@ -9,26 +9,33 @@
 
 #main { 
 	position: absolute;
-    background-color: Grey;
-	width: 80%;
+	width: 70%;
 	height: 60%;
+    background-color: Grey;
+	box-shadow: 10px 10px 5px #656565;
+	border-radius: 5px;
 }
 
 #coucou	{
-	height: 75px;
+	height: 25px;
+	margin: 0 auto;
 }
 
 #side { 
 	position: absolute;
-	margin-left: 80%;
-	width: 20%;
+	margin-left: 75%;
+	width: 22%;
 	height: 60%;
 	background-color: Red;
+	box-shadow: 10px 10px 5px #656565;
+	border-radius: 25px;
 }
 #retour {
-	background-color: blue;
+	background-color: #0B0B61;
 	width: 600px;
-	height: 100px;
+	height: 50px;
+	box-shadow: 10px 10px 5px #656565;
+	border-radius: 25px;
 	margin: 0 auto;
 }
 
