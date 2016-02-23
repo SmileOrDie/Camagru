@@ -35,12 +35,7 @@
 			else
 					echo $_POST['name'];
  			?>><br>
- 			Password: <input type="password" placeholder=<?php
- 			if (empty($_POST['password']) == TRUE)
-					echo "Password";
-			else
-					echo $_POST['password'];
- 			?>><br>
+ 			Password: <input type="password" placeholder= <?php echo $_POST['password']; ?> ><br>
  			E-mail: <input type="email" name="email">
   			<input type="submit" value="Sign in">
 		</form>

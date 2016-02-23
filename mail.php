@@ -1,43 +1,13 @@
+
 <?php
-     $to  = 'smail.hamdani@gmail.com';
-     echo $_POST['email'];
-     $subject = 'Confimed e-mail';
-     $message = '
-     <html>
-      <head>
-       <title>Confirmed e-mail</title>
-      </head>
-      <body>
-       <p>voila</p>
-       <table>
-        <tr>
-         <th>Personne</th><th>Jour</th><th>Mois</th><th>Année</th>
-        </tr>
-        <tr>
-         <td>Josiane</td><td>3</td><td>Août</td><td>1970</td>
-        </tr>
-        <tr>
-         <td>Emma</td><td>26</td><td>Août</td><td>1973</td>
-        </tr>
-       </table>
-      </body>
-     </html>
-     ';
-
-     // Pour envoyer un mail HTML, l'en-tête Content-type doit être défini
-     $headers  = 'MIME-Version: 1.0' . "\r\n";
-     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-
-     // En-têtes additionnels
-     $headers .= 'To: '$to. "\r\n";
-     $headers .= 'From: Camagru <smail.hamdani@gmail.com>' . "\r\n";
-     // $headers .= 'Cc: anniversaire_archive@example.com' . "\r\n";
-     // $headers .= 'Bcc: anniversaire_verif@example.com' . "\r\n";
-
-     // Envoi
-     mail($to, $subject, $message);
+  echo  '<h1><center><a href="index.php">Camagru</a></center></h1>' ;
+  $to  = $_POST['email'];
+  $subject = 'Confimed e-mail';
+  $message = 'test';
+  mail($to, $subject, $message);
+  echo  '<br><center><a href="index.php">confirmed e-mail sended</a></center>' ;
 ?>
-<html>
+<!-- <html>
 <head>
   <title>Camagru</title>
   <link rel="stylesheet" type="text/css" href="front.css">
@@ -57,7 +27,4 @@
     </form>
   </div>
 </body>
-<?php
-  }
-?>
-</html>
+</html> -->
